@@ -7,7 +7,7 @@ module.exports = {
     boxShadow: {
       supportCard: "0px 29.6346px 78.5962px rgba(74, 74, 74, 0.5)",
       powerCard: "0px 4px 14px rgba(0, 0, 0, 0.1)",
-      brand: "0px 7px 22px rgba(0, 0, 0, 0.05)"
+      brand: "0px 7px 22px rgba(0, 0, 0, 0.05)",
     },
     fontSize: {
       h1: ["76px", "104px"],
@@ -38,8 +38,8 @@ module.exports = {
         "FF006B": "#FF006B",
         "F1F3F6": "#F1F3F6",
         "0E1028": "#0E1028",
-      }
+      },
     },
   },
   plugins: [],
-}
+};
