@@ -1,5 +1,5 @@
 import { HorizontalDivider } from "@components/utils/Divider";
-import ArrowLeftIcon from "@assets/common/ArrowLeftIcon";
+import ArrowLeftIcon from "@assets/image/common/ArrowLeftIcon";
 
 const navlinks = [
   {

@@ -4,24 +4,10 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    screens: {
-      "3xl": "1920px",
-    },
     boxShadow: {
       updateCard: "0px 29.6346px 78.5962px rgba(74, 74, 74, 0.5)",
       powerCard: "0px 4px 14px rgba(0, 0, 0, 0.1)",
       brand: "0px 7px 22px rgba(0, 0, 0, 0.05)",
-    },
-    fontSize: {
-      h1: ["76px", "104px"],
-      h2: ["61px", "72px"],
-      h3: ["49px", "64px"],
-      cta: [
-        "25px",
-        {
-          lineHeight: "48px",
-        },
-      ],
     },
     fontFamily: {
       poppins: "Poppins, sans-serif",
@@ -29,6 +15,9 @@ module.exports = {
       inter: "Inter, sans-serif",
     },
     extend: {
+      screens: {
+        "3xl": "1920px",
+      },
       colors: {
         "010311": "#010311",
         "333333": "#333333",
@@ -47,6 +36,7 @@ module.exports = {
         "FF006B": "#FF006B",
         "F1F3F6": "#F1F3F6",
         "0E1028": "#0E1028",
+        "DEEAF6": "#DEEAF6",
       },
       lineHeight: {
         9.5: "2.375rem",
@@ -54,7 +44,7 @@ module.exports = {
       padding: {
         11.5: "2.87rem",
         15: "3.75rem",
-        17: "4.25",
+        17: "4.25rem",
         22: "5.75rem",
         26: "6.5rem",
         53: "13.25rem",
@@ -62,9 +52,20 @@ module.exports = {
       margin: {
         11.5: "2.87rem",
         15: "3.75rem",
-        17: "4.25",
+        17: "4.25rem",
         26: "6.5rem",
         53: "13.25rem",
+      },
+      fontSize: {
+        h1: ["76px", "104px"],
+        h2: ["61px", "72px"],
+        h3: ["49px", "64px"],
+        cta: [
+          "25px",
+          {
+            lineHeight: "48px",
+          },
+        ],
       },
     },
   },

@@ -8,7 +8,7 @@ export const LandingPage = () => {
           <p>Your Exposure to</p>
           <p>Crypto Market Risks</p>
         </div>
-        <p className="font-poppins font-light text-2xl tracking-wide text-cta text-center pt-6 3xl:w-1/2 3xl:m-auto">
+        <p className="font-poppins font-light tracking-wide text-cta text-center pt-6 3xl:w-1/2 3xl:m-auto">
           Choose a cover pool, select the duration, and enter an amount you
           would like to cover. Upon incident resolution, submit your claim to
           receive payout in stablecoins immediately.
