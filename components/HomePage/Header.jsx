@@ -15,7 +15,7 @@ const navlinks = [
 export const Header = () => {
   return (
     <div className="overflow-x-hidden">
-      <div className="bg-transparent px-72 flex justify-between items-center py-10 relative font-sora text-base  text-black tracking-wide">
+      <div className="bg-transparent px-96 flex justify-between items-center py-10 relative font-sora text-base  text-black tracking-wide">
         <div className="font-sora">NEPTUNE MUTUAL</div>
         <div className="flex justify-between items-center">
           <span className="leading-9.5">Blog</span>
