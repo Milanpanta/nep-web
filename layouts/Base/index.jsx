@@ -15,10 +15,8 @@ export const BaseLayout = ({
       description={description}
       iconHref={iconHref}
     />
-    <div className="relative">
-      {/* <Header selectedNavKey={selectedNavKey} /> */}
-      <main selectedNavKey={selectedNavKey}>{children}</main>
-      {/* <footer></footer> */}
-    </div>
+    {/* <Header selectedNavKey={selectedNavKey} /> */}
+    <main selectedNavKey={selectedNavKey}>{children}</main>
+    {/* <footer></footer> */}
   </>
 );

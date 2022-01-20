@@ -13,6 +13,12 @@ module.exports = {
       h1: ["76px", "104px"],
       h2: ["61px", "72px"],
       h3: ["49px", "64px"],
+      cta: [
+        "25px",
+        {
+          lineHeight: "48px",
+        },
+      ],
     },
     fontFamily: {
       poppins: "Poppins, sans-serif",
@@ -45,6 +51,7 @@ module.exports = {
       padding: {
         15: "3.75rem",
         11.5: "2.87rem",
+        22: "5.75rem",
       },
       margin: {
         15: "3.75rem",
