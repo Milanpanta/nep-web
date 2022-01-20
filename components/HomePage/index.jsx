@@ -2,6 +2,7 @@ import { Header } from "@components/HomePage/Header";
 import { LandingPage } from "@components/HomePage/Landing";
 import { Background, Hero } from "@components/utils/Background";
 import { IndustryComponent } from "@components/HomePage/Industry";
+import { GotCoveredComponent } from "@components/HomePage/GotCovered";
 
 export function HomePage() {
   return (
@@ -13,6 +14,7 @@ export function HomePage() {
       <Background>
         <IndustryComponent />
       </Background>
+      <GotCoveredComponent />
     </div>
   );
 }

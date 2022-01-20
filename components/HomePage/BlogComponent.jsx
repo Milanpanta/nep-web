@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export const BlogComponent = () => {
   return (
-    <div className="mt-92">
+    <div className="mt-92 pb-74">
       <div className="flex justify-between items-center">
         <p className="text-h2 font-semibold font-sora">What&apos;s Going On?</p>
         <div className="flex justify-center items-center">
