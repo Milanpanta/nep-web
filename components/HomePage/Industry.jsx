@@ -9,6 +9,7 @@ import PlanetImg from "@assets/image/nmplanet.png";
 import FenbushiImg from "@assets/image/brand/fenbushi.png";
 import AnimocaImg from "@assets/image/brand/animoca.png";
 import { BrandCarouselComponent } from "@components/HomePage/BrandCarousel";
+import { BlogComponent } from "@components/HomePage/BlogComponent";
 
 export const IndustryComponent = () => {
   const topLeftGradient = "/top-left-gradient.png";
@@ -55,6 +56,7 @@ export const IndustryComponent = () => {
         </div>
 
         <BrandCarouselComponent />
+        <BlogComponent />
       </div>
     </div>
   );

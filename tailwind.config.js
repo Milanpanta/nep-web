@@ -48,6 +48,7 @@ module.exports = {
         22: "5.75rem",
         26: "6.5rem",
         53: "13.25rem",
+        92: "23rem",
       },
       margin: {
         11.5: "2.87rem",
@@ -55,6 +56,7 @@ module.exports = {
         17: "4.25rem",
         26: "6.5rem",
         53: "13.25rem",
+        92: "23rem",
       },
       fontSize: {
         h1: ["76px", "104px"],
