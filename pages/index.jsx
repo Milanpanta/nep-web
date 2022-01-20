@@ -1,15 +1,16 @@
-import Head from "next/head";
+import { BaseLayout } from "@layouts/Base";
 import { HomePage } from "../components/HomePage";
+import { pageRoutes } from "@lib/routes";
 
 export default function Home() {
   return (
-    <div>
-      <Head>
-        <title>Neptune Mutual</title>
-        <meta name="description" content="Neptune Mutual" />
-        <link rel="icon" href="/favicon.ico" />
-        <HomePage />
-      </Head>
-    </div>
+    <BaseLayout
+      title="Neptune Mutual"
+      selectedNavKey=""
+      description="Neptune Mutual"
+      canonical={pageRoutes.home}
+    >
+      <HomePage />
+    </BaseLayout>
   );
 }

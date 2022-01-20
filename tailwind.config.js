@@ -20,13 +20,13 @@ module.exports = {
       inter: "Inter, sans-serif",
     },
     extend: {
-      color: {
+      colors: {
         "010311": "#010311",
         "333333": "#333333",
         "01052D": "#01052D",
         "4E7DD9": "#4E7DD9",
         "9A9A9A": "#9A9A9A",
-        "b0c4db80": "#b0c4db80",
+        "b0c4db": "#b0c4db",
         "3C69FE": "#3C69FE",
         "E86BFB": "#E86BFB",
         "4289F2": "#4289F2",
@@ -38,6 +38,17 @@ module.exports = {
         "FF006B": "#FF006B",
         "F1F3F6": "#F1F3F6",
         "0E1028": "#0E1028",
+      },
+      lineHeight: {
+        9.5: "2.375rem",
+      },
+      padding: {
+        15: "3.75rem",
+        11.5: "2.87rem",
+      },
+      margin: {
+        15: "3.75rem",
+        11.5: "2.87rem",
       },
     },
   },
