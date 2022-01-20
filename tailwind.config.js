@@ -4,8 +4,11 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      "3xl": "1920px",
+    },
     boxShadow: {
-      supportCard: "0px 29.6346px 78.5962px rgba(74, 74, 74, 0.5)",
+      updateCard: "0px 29.6346px 78.5962px rgba(74, 74, 74, 0.5)",
       powerCard: "0px 4px 14px rgba(0, 0, 0, 0.1)",
       brand: "0px 7px 22px rgba(0, 0, 0, 0.05)",
     },
@@ -49,13 +52,19 @@ module.exports = {
         9.5: "2.375rem",
       },
       padding: {
-        15: "3.75rem",
         11.5: "2.87rem",
+        15: "3.75rem",
+        17: "4.25",
         22: "5.75rem",
+        26: "6.5rem",
+        53: "13.25rem",
       },
       margin: {
-        15: "3.75rem",
         11.5: "2.87rem",
+        15: "3.75rem",
+        17: "4.25",
+        26: "6.5rem",
+        53: "13.25rem",
       },
     },
   },

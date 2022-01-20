@@ -1,7 +1,13 @@
-export const Background = ({ src, title }) => {
+export const Background = ({ children }) => {
   return (
-    <div className="absolute top-0 w-full overflow-x-clip h-screen z-0">
-      <img src={src} alt={title} />
+    <div
+      style={{
+        backgroundImage: "linear-gradient(180deg, #FFF5FD 0%, #F1F3F6 100%)",
+        backgroundSize: "cover",
+        backgroundPosition: "left",
+      }}
+    >
+      {children}
     </div>
   );
 };

@@ -1,6 +1,7 @@
 import { Header } from "@components/HomePage/Header";
 import { LandingPage } from "@components/HomePage/Landing";
-import { Hero } from "@components/utils/Background";
+import { Background, Hero } from "@components/utils/Background";
+import { IndustryComponent } from "@components/HomePage/Industry";
 
 export function HomePage() {
   return (
@@ -9,6 +10,9 @@ export function HomePage() {
         <Header />
         <LandingPage />
       </Hero>
+      <Background>
+        <IndustryComponent />
+      </Background>
     </div>
   );
 }
