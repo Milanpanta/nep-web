@@ -11,7 +11,8 @@ export const RoadmapComponent = () => {
         Follow our progress, join our community
       </p>
 
-      <div className="mt-24 mb-14">
+      {/* TimeLine  */}
+      <div className="mt-24">
         <div className="relative flex justify-between items-center">
           <div className="w-14 h-14 border border-black rounded-full flex justify-center items-center z-30 bg-white">
             <ChevronLeftIcon className="w-7 h-7" />
@@ -65,6 +66,21 @@ export const RoadmapComponent = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      {/* Description */}
+      <div className=" mt-44 text-left border-2 border-red">
+        <p className="font-poppins font-semibold text-4xl leading-10">
+          Product Design
+        </p>
+        <p className="w-1/2 font-poppins font-light mt-4">
+          The design of Neptune Mutual’s cover protocol is driven by four
+          underlying principles, namely:
+        </p>
+        <p className="w-2/3 font-poppins font-light mt-6">1. Security</p>
+        <p className="w-2/3 font-poppins font-light">2. Minimise risk</p>
+        <p className="w-2/3 font-poppins font-light">3. Scalability</p>
+        <p className="w-2/3 font-poppins font-light">4. User Experience(UX)</p>
       </div>
     </div>
   );
