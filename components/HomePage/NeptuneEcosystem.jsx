@@ -1,6 +1,20 @@
+import Image from "next/image";
+import TopLeftImg from "@assets/image/ecosystem/top-left.png";
+import BottomLeftImg from "@assets/image/ecosystem/bottom-left.png";
+import BottomRightImg from "@assets/image/ecosystem/bottom-right.png";
+
 export const NeptuneEcosystemComponent = () => {
   return (
     <div className="bg-01052D relative pt-46 mt-60 w-screen h-screen overflow-x-hidden">
+      <div className="absolute top-0 left-0">
+        <Image src={TopLeftImg} alt="Vector Image" />
+      </div>
+      <div className="absolute bottom-0 left-0">
+        <Image src={BottomLeftImg} alt="Vector Image" />
+      </div>
+      <div className="absolute bottom-0 right-0">
+        <Image src={BottomRightImg} alt="Vector Image" />
+      </div>
       <div className="mx-72 px-26 flex justify-between gap-28">
         <div>
           <p className="w-3/4 font-sora font-semibold text-h2 text-F9FAFB">
