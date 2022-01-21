@@ -5,6 +5,7 @@ import { IndustryComponent } from "@components/HomePage/Industry";
 import { GotCoveredComponent } from "@components/HomePage/GotCovered";
 import { CoverPoolComponent } from "@components/HomePage/CoverPool";
 import { NeptuneEcosystemComponent } from "@components/HomePage/NeptuneEcosystem";
+import { RoadmapComponent } from "@components/HomePage/Roadmap";
 
 export function HomePage() {
   return (
@@ -21,6 +22,9 @@ export function HomePage() {
         <CoverPoolComponent />
       </Background>
       <NeptuneEcosystemComponent />
+      <Background>
+        <RoadmapComponent />
+      </Background>
     </div>
   );
 }

@@ -54,6 +54,7 @@ module.exports = {
         46: "11.5rem",
         53: "13.25rem",
         74: "18.5rem",
+        76: "19rem",
         92: "23rem",
       },
       margin: {
@@ -67,6 +68,7 @@ module.exports = {
         46: "11.5rem",
         53: "13.25rem",
         74: "18.5rem",
+        76: "19rem",
         92: "23rem",
       },
       fontSize: {

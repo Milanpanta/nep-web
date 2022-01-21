@@ -1,4 +1,4 @@
-import DownloadIcon from "@assets/icons/DownloadIcon";
+import DownloadIcon from "@utils/icons/DownloadIcon";
 
 export const CoverPoolComponent = () => {
   return (

@@ -1,6 +1,6 @@
-import StarIcon from "@assets/icons/StarIcon";
-import CautionIcon from "@assets/icons/CautionIcon";
-import CreateIcon from "@assets/icons/CreateIcon";
+import StarIcon from "@utils/icons/StarIcon";
+import CautionIcon from "@utils/icons/CautionIcon";
+import CreateIcon from "@utils/icons/CreateIcon";
 
 export const GotCoveredComponent = () => {
   return (

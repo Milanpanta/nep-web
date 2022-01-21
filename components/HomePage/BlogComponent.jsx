@@ -1,4 +1,4 @@
-import ArrowRightAltIcon from "@assets/icons/ArrowRightAltIcon";
+import ArrowRightAltIcon from "@utils/icons/ArrowRightAltIcon";
 import Blog1Img from "@assets/image/blog/blog1.png";
 import Blog2Img from "@assets/image/blog/blog2.png";
 import Image from "next/image";

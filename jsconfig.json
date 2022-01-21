@@ -20,7 +20,8 @@
       "@styles/*": ["styles/*"],
       "@assets/*": ["assets/*"],
       "@lib/*": ["lib/*"],
-      "@layouts/*": ["layouts/*"]
+      "@layouts/*": ["layouts/*"],
+      "@utils/*": ["utils/*"]
     }
   },
   "include": ["**/*.js", "**/*.jsx"],
