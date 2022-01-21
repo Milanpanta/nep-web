@@ -3,6 +3,8 @@ import { LandingPage } from "@components/HomePage/Landing";
 import { Background, Hero } from "@components/utils/Background";
 import { IndustryComponent } from "@components/HomePage/Industry";
 import { GotCoveredComponent } from "@components/HomePage/GotCovered";
+import { CoverPoolComponent } from "@components/HomePage/CoverPool";
+import { NeptuneEcosystemComponent } from "@components/HomePage/NeptuneEcosystem";
 
 export function HomePage() {
   return (
@@ -15,6 +17,10 @@ export function HomePage() {
         <IndustryComponent />
       </Background>
       <GotCoveredComponent />
+      <Background>
+        <CoverPoolComponent />
+      </Background>
+      <NeptuneEcosystemComponent />
     </div>
   );
 }
