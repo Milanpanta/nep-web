@@ -6,7 +6,7 @@ import ChevronRightIcon from "utils/icons/ChevronRightIcon";
 
 export const OurTeamComponent = () => {
   return (
-    <div className="border-x border-b0c4db mx-72 px-26">
+    <div className="border-x border-b0c4db mx-72 px-26 pb-60">
       <div className="pt-64 text-center">
         <p className="font-sora text-h2 font-semibold">Our Team</p>
         <p className="mt-4 w-1/2 mx-auto font-poppins font-light tracking-wide text-2xl leading-10">

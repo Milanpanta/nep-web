@@ -1,4 +1,5 @@
 import { SEOMeta } from "@components/utils/SEO";
+import { Footer } from "@components/utils/Footer";
 
 export const BaseLayout = ({
   children,
@@ -17,6 +18,6 @@ export const BaseLayout = ({
     />
     {/* <Header selectedNavKey={selectedNavKey} /> */}
     <main selectedNavKey={selectedNavKey}>{children}</main>
-    {/* <footer></footer> */}
+    <Footer />
   </>
 );
