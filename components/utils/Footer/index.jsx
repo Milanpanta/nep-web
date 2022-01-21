@@ -11,7 +11,7 @@ import PlanetImg from "@assets/image/nmplanet.png";
 export const Footer = () => {
   return (
     <div className="relative w-screen h-auto overflow-x-hidden bg-01052D">
-      <div className="absolute top-36 right-48">
+      <div className="absolute top-36 right-56">
         <Image src={PlanetImg} alt="Planet" />
       </div>
       <div className="mx-72 px-26 pt-24">
