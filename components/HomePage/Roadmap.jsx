@@ -3,8 +3,8 @@ import ChevronLeftIcon from "utils/icons/ChevronLeftIcon";
 
 export const RoadmapComponent = () => {
   return (
-    <div className="mx-72 px-26 pt-76">
-      <p className="font-sora text-h3 font-semibold text-center">
+    <div className="border-x border-b0c4db mx-72 px-26 pt-76">
+      <p className="w-3/4 m-auto font-sora text-h3 font-semibold text-center">
         Our roadmap involves growing the Neptune Mutual ecosystem
       </p>
       <p className="font-poppins font-light text-2xl leading-10 mt-4 text-center tracking-wide">
@@ -69,7 +69,7 @@ export const RoadmapComponent = () => {
       </div>
 
       {/* Description */}
-      <div className=" mt-44 text-left border-2 border-red">
+      <div className=" mt-44 text-left pl-36">
         <p className="font-poppins font-semibold text-4xl leading-10">
           Product Design
         </p>

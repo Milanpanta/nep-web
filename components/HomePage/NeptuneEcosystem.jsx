@@ -5,7 +5,7 @@ import BottomRightImg from "@assets/image/ecosystem/bottom-right.png";
 
 export const NeptuneEcosystemComponent = () => {
   return (
-    <div className="bg-01052D relative pt-46 mt-60 w-screen h-screen overflow-x-hidden">
+    <div className="bg-01052D relative pt-46 w-screen h-screen overflow-x-hidden">
       <div className="absolute top-0 left-0">
         <Image src={TopLeftImg} alt="Vector Image" />
       </div>

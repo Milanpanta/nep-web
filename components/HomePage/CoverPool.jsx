@@ -2,7 +2,7 @@ import DownloadIcon from "@utils/icons/DownloadIcon";
 
 export const CoverPoolComponent = () => {
   return (
-    <div className="pt-56 px-26 mx-72">
+    <div className="border-x border-b0c4db pt-56 px-26 py-60 mx-72">
       <div className="flex gap-10">
         <div className="">
           <p className="text-h3 font-sora font-semibold">
