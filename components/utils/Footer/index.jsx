@@ -5,10 +5,15 @@ import TelegramIcon from "@utils/icons/TelegramIcon";
 import LinkedinIcon from "@utils/icons/LinkedinIcon";
 import MediumIcon from "@utils/icons/MediumIcon";
 import RedditIcon from "@utils/icons/RedditIcon";
+import Image from "next/image";
+import PlanetImg from "@assets/image/nmplanet.png";
 
 export const Footer = () => {
   return (
-    <div className="w-screen h-auto overflow-x-hidden bg-01052D">
+    <div className="relative w-screen h-auto overflow-x-hidden bg-01052D">
+      <div className="absolute top-36 right-48">
+        <Image src={PlanetImg} alt="Planet" />
+      </div>
       <div className="mx-72 px-26 pt-24">
         <div className="flex justify-end">
           <button className="border border-white bg-0E1028 pl-3 pr-3.5 rounded flex items-end py-1 text-white">
