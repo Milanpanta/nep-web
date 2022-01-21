@@ -1,14 +1,16 @@
 import StarIcon from "@assets/icons/StarIcon";
+import CautionIcon from "@assets/icons/CautionIcon";
+import CreateIcon from "@assets/icons/CreateIcon";
 
 export const GotCoveredComponent = () => {
   return (
     <div className="w-screen h-screen px-72 bg-01052D overflow-x-hidden">
       <div className="relative">
-        <div className="absolute border-2 top-0">
+        <div className="absolute -top-14">
           <img src="/cover-mask.png" alt="Cover Mask" className="" />
         </div>
         <div className="pl-28 pr-26 pt-38">
-          <p className="font-sora w-1/2 border border-red-700 font-semibold text-h2 text-transparent bg-clip-text bg-gradient-to-l from-3C69FE to-E86BFB">
+          <p className="font-sora w-1/2 font-semibold text-h2 text-transparent bg-clip-text bg-gradient-to-l from-3C69FE to-E86BFB">
             We’ve Got You Covered
           </p>
           <p className="text-white font-poppins font-light text-2xl pt-4 leading-10">
@@ -33,7 +35,7 @@ export const GotCoveredComponent = () => {
           </div>
 
           <div className="bg-CDDFFB bg-opacity-10 py-16 px-10">
-            <StarIcon className="w-10 h-10" />
+            <CautionIcon className="w-10 h-10" />
             <p className="pt-10 font-inter font-semibold text-2xl text-transparent bg-clip-text tracking-wide leading-7 bg-gradient-to-l from-3C69FE to-E86BFB">
               Get Protection
             </p>
@@ -47,7 +49,7 @@ export const GotCoveredComponent = () => {
           </div>
 
           <div className="bg-CDDFFB bg-opacity-10 py-16 px-10">
-            <StarIcon className="w-10 h-10" />
+            <CreateIcon className="w-10 h-10" />
             <p className="pt-10 font-inter font-semibold text-2xl text-transparent bg-clip-text tracking-wide leading-7 bg-gradient-to-l from-3C69FE to-E86BFB">
               Create Covers
             </p>
