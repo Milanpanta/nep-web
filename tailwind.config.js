@@ -39,6 +39,7 @@ module.exports = {
         "DEEAF6": "#DEEAF6",
         "CDDFFB": "#CDDFFB",
         "E0E0E0": "#E0E0E0",
+        "D7C1FB": "#D7C1FB",
       },
       lineHeight: {
         9.5: "2.375rem",
@@ -85,6 +86,12 @@ module.exports = {
       },
       lineHeight: {
         14: "3.5rem",
+      },
+      width: {
+        88: "22rem",
+      },
+      height: {
+        88: "22rem",
       },
     },
   },
