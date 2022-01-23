@@ -1,6 +1,6 @@
 export const LandingPage = () => {
   return (
-    <div className="3xl:border-x 3xl:border-b0c4db 3xl:mx-72 pb-53">
+    <div className="3xl:border-x 3xl:border-b0c4db 3xl:mx-72 pb-20 3xl:pb-53">
       <div className="relative w-full ">
         <div className="w-10 h-full bg-b0c4db opacity-50"></div>
         <div className="mt-14 sm:mt-22 font-sora font-semibold text-3xxl sm:text-6xl sm:leading-20 3xl:text-h1 text-center">

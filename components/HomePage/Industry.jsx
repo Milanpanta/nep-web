@@ -16,21 +16,23 @@ export const IndustryComponent = () => {
   const bottomRightGradient = "/bottom-right-gradient.png";
 
   return (
-    <div className="border-x border-b0c4db mx-72 pt-28">
-      <div className="relative px-26 w-full ">
-        <div className="relative bg-01052D rounded-2xl h-auto shadow-updateCard">
-          <p className="font-semibold font-sora pl-17 text-white text-3xl pt-28 leading-10">
-            Stay Tuned for Further Updates
-          </p>
-          <div className="flex pt-10 gap-8 pl-17 pb-28">
-            <TwitterIcon className="w-7 h-7 relative top-1" />
-            <RedditIcon className="w-7 h-7" />
-            <TelegramIcon className="w-7 h-7" />
-            <LinkedinIcon className="w-7 h-7" />
-            <MediumIcon className="w-7 h-7" />
-            <GithubIcon className="w-7 h-7" />
+    <div className="3xl:border-x 3xl:border-b0c4db px-4 sm:px-32 3xl:px-26 3xl:mx-72 pt-28 sm:pt-32 3xl:pt-28">
+      <div className="relative w-full ">
+        <div className="flex flex-col-reverse items-center xl:flex-row xl:items-center bg-01052D rounded-2xl h-auto shadow-updateCard">
+          <div className="xl:pl-17">
+            <p className="font-semibold font-sora  text-white text-2xl text-center xl:text-left sm:text-3xl mt-9 xl:mt-28 leading-10">
+              Stay Tuned for Further Updates
+            </p>
+            <div className="flex justify-center xl:justify-start mt-7 xl:mt-10 gap-7 xl:gap-8 mb-14 xl:mb-28">
+              <TwitterIcon className="w-7 h-7 relative top-1" />
+              <RedditIcon className="w-7 h-7" />
+              <TelegramIcon className="w-7 h-7" />
+              <LinkedinIcon className="w-7 h-7" />
+              <MediumIcon className="w-7 h-7" />
+              <GithubIcon className="w-7 h-7" />
+            </div>
           </div>
-          <div className="absolute top-9 right-0">
+          <div className="mt-9 xl:mt-0">
             <Image src={PlanetImg} alt="Planet Image" />
           </div>
         </div>
