@@ -3,11 +3,11 @@ import ChevronLeftIcon from "utils/icons/ChevronLeftIcon";
 
 export const RoadmapComponent = () => {
   return (
-    <div className="border-x border-b0c4db mx-72 px-26 pt-76">
-      <p className="w-3/4 m-auto font-sora text-h3 font-semibold text-center">
+    <div className="px-4 sm:px-32 3xl:border-x 3xl:border-b0c4db 3xl:mx-72 3xl:px-26 pt-26 lg:pt-76">
+      <p className="lg:w-3/4 leading-12 lg:leading-normal m-auto font-sora text-3xxl lg:text-h3 font-semibold text-left lg:text-center">
         Our roadmap involves growing the Neptune Mutual ecosystem
       </p>
-      <p className="font-poppins font-light text-2xl leading-10 mt-4 text-center tracking-wide">
+      <p className="font-poppins font-light lg:text-2xl leading-10 mt-2 lg:mt-4 text-center tracking-wide">
         Follow our progress, join our community
       </p>
 
