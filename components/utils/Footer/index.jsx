@@ -11,11 +11,11 @@ import PlanetImg from "@assets/image/nmplanet.png";
 export const Footer = () => {
   return (
     <div className="relative w-screen h-auto overflow-x-hidden bg-01052D">
-      <div className="absolute top-36 right-56">
+      <div className="hidden lg:block absolute top-36 right-28 3xl:right-56">
         <Image src={PlanetImg} alt="Planet" />
       </div>
-      <div className="mx-72 px-26 pt-24">
-        <div className="flex justify-end">
+      <div className="px-4 sm:px-32 3xl:mx-72 3xl:px-26 pt-24">
+        <div className="hidden lg:flex justify-end">
           <button className="border border-white bg-0E1028 pl-3 pr-3.5 rounded flex items-end py-1 text-white">
             <span className="leading-5 font-inter text-lg pr-1.5">en</span>
             <div className="-rotate-90 relative top-1">
@@ -24,16 +24,16 @@ export const Footer = () => {
           </button>
         </div>
 
-        <div className="mt-7 text-left">
+        <div className="mt-5 lg:mt-7 text-center lg:text-left">
           <p className="text-white">NEPTUNE MUTUAL</p>
-          <p className="mt-11 text-white font-sora text-4xl font-semibold leading-10">
+          <p className="mt-8 lg:mt-11 text-white font-sora text-3xl lg:text-4xl font-semibold leading-10">
             Stay Tuned for Further Updates
           </p>
-          <p className="mt-4 w-1/2 text-white opacity-40 font-light font-poppins tracking-wider">
+          <p className="mt-2 lg:mt-4 lg:w-1/2 text-white opacity-40 font-light font-poppins tracking-wider">
             Don’t be a stranger! Come join us and participate with us in our
             social media channels. Stay up to date on what we are building.
           </p>
-          <div className="flex mt-8 gap-8">
+          <div className="mx-1 flex justify-center lg:justify-start mt-8 gap-8">
             <TwitterIcon className="w-7 h-7 relative top-1" />
             <RedditIcon className="w-7 h-7" />
             <TelegramIcon className="w-7 h-7" />
@@ -44,8 +44,8 @@ export const Footer = () => {
         </div>
       </div>
 
-      <div className="mt-38 py-4 border-y-2 border-b0c4db border-opacity-40">
-        <div className="flex justify-center items-center gap-6">
+      <div className="mt-18 lg:mt-38 py-4 border-y-2 border-b0c4db border-opacity-40">
+        <div className="flex flex-col lg:flex-row justify-center items-center gap-6">
           <div className="font-sora font-light text-white leading-10">Blog</div>
           <div className="font-sora font-light text-white leading-10">
             Contact
@@ -62,7 +62,7 @@ export const Footer = () => {
         </div>
       </div>
 
-      <div className="mx-72 px-26 mt-6 mb-18 text-center">
+      <div className="px-4 sm:px-32 3xl:mx-72 3xl:px-26 mt-6 mb-18 text-center">
         <p className="font-light font-poppins leading-10 tracking-wide text-white opacity-40">
           Nepune Mutual&copy; 2022
         </p>
