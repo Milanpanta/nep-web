@@ -15,8 +15,8 @@ export const Background = ({ children }) => {
 export const Hero = ({ children }) => {
   return (
     <div
+      className="bg-home-gradient-small sm:bg-home-gradient"
       style={{
-        backgroundImage: "url(/home-gradient.png)",
         backgroundSize: "cover",
         backgroundPosition: "left",
       }}

@@ -18,6 +18,10 @@ module.exports = {
       screens: {
         "3xl": "1920px",
       },
+      backgroundImage: {
+        "home-gradient": "url(/home-gradient.png)",
+        "home-gradient-small": "url(/home-gradient-small.png)",
+      },
       colors: {
         "010311": "#010311",
         "333333": "#333333",

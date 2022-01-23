@@ -14,7 +14,7 @@ export const LandingPage = () => {
           receive payout in stablecoins immediately.
         </p>
         <div className="text-center">
-          <button className="px-12 mt-7 sm:mt-14 text-center bg-black text-white text-lg leading-6 py-6 rounded font-sora">
+          <button className="px-12 mt-7 sm:mt-14 text-center bg-black text-white text-sm sm:text-lg leading-6 py-6 rounded font-sora">
             View App Prototype
           </button>
         </div>
