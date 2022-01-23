@@ -9,11 +9,11 @@ export const GotCoveredComponent = () => {
         <div className="absolute -top-14">
           <img src="/cover-mask.png" alt="Cover Mask" className="" />
         </div>
-        <div className="px-4 sm:pl-28 sm:pr-26 pt-38">
-          <p className="font-sora lg:w-1/2 font-semibold text-h2 text-transparent bg-clip-text bg-gradient-to-l from-3C69FE to-E86BFB">
+        <div className="px-4 sm:pl-28 sm:pr-26 pt-10 lg:pt-38">
+          <p className="font-sora lg:w-1/2 font-semibold text-3xxl lg:text-h2 text-transparent bg-clip-text bg-gradient-to-l from-3C69FE to-E86BFB">
             We’ve Got You Covered
           </p>
-          <p className="text-white font-poppins font-light text-2xl pt-4 leading-10">
+          <p className="text-white font-poppins font-light leading-8 lg:text-2xl pt-4 lg:leading-10">
             Parametric cover means guaranteed payouts. No claims assessment
             means faster and scalable resolution when hacks or exploits occur.
           </p>
