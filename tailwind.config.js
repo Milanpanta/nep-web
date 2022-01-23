@@ -102,6 +102,9 @@ module.exports = {
       height: {
         88: "22rem",
       },
+      borderRadius: {
+        circle: "50%",
+      },
     },
   },
   plugins: [],
