@@ -37,13 +37,13 @@ export const IndustryComponent = () => {
           </div>
         </div>
 
-        <div className="mt-80 p-4 relative bg-white shadow-powerCard border-transparent rounded-2xl">
+        <div className="mt-58 xl:mt-76 p-3 xl:p-4 relative bg-white shadow-powerCard border-transparent rounded-2xl">
           <div className="relative rounded-2xl bg-DEEAF6 bg-opacity-30 ">
-            <p className="text-h3 text-01052D text-center font-semibold font-sora px-44 pt-12 z-30">
+            <p className="text-2xl leading-10 xl:text-h3 text-01052D text-center font-semibold font-sora mx-4 xl:mx-44 pt-12 z-30">
               Powered by You, Backed by Industry Leaders
             </p>
-            <div className="flex items-center justify-center pt-22 pb-28">
-              <div className="pr-36">
+            <div className="flex flex-col xl:flex-row items-center justify-center mt-12 xl:mt-22 pb-12 xl:pb-28">
+              <div className="pb-18 xl:pb-0 px-6 xl:px-0 xl:pr-36">
                 <Image src={FenbushiImg} alt="Fenbushi Image" />
               </div>
               <Image src={AnimocaImg} alt="Animoca Image" />
