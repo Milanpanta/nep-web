@@ -10,7 +10,7 @@ import { OurTeamComponent } from "@components/HomePage/OurTeam";
 
 export function HomePage() {
   return (
-    <div className="relative">
+    <div className="relative overflow-x-hidden">
       <Hero>
         <Header />
         <LandingPage />

@@ -15,9 +15,9 @@ const navlinks = [
 export const Header = () => {
   return (
     <div className="overflow-x-hidden">
-      <div className="bg-transparent px-96 flex justify-between items-center py-10 relative font-sora text-base  text-black tracking-wide">
+      <div className="bg-transparent px-2 sm:px-32 3xl:px-96 sm:flex justify-between items-center py-3.5 sm:py-10 relative font-sora text-base  text-black tracking-wide">
         <div className="font-sora">NEPTUNE MUTUAL</div>
-        <div className="flex justify-between items-center">
+        <div className="hidden sm:flex justify-between items-center">
           <span className="leading-9.5">Blog</span>
           <span className="pl-14 leading-9.5 mr-11.5">Contact</span>
           <button className="border border-333333 pl-3 pr-3.5 rounded flex items-end py-1">

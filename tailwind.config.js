@@ -41,9 +41,6 @@ module.exports = {
         "E0E0E0": "#E0E0E0",
         "D7C1FB": "#D7C1FB",
       },
-      lineHeight: {
-        9.5: "2.375rem",
-      },
       padding: {
         11.5: "2.87rem",
         15: "3.75rem",
@@ -82,10 +79,13 @@ module.exports = {
             lineHeight: "48px",
           },
         ],
+        "3xxl": ["2rem", "2.5rem"],
         "4xxl": ["2.5rem", "4rem"],
       },
       lineHeight: {
+        9.5: "2.375rem",
         14: "3.5rem",
+        20: "5rem",
       },
       width: {
         88: "22rem",
