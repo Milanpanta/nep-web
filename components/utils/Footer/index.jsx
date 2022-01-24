@@ -9,6 +9,8 @@ import Image from "next/image";
 import PlanetImg from "@assets/image/nmplanet.png";
 
 export const Footer = () => {
+  const logo = "/logos/neptune-mutual-full-inverse.png";
+
   return (
     <div className="relative w-screen h-auto overflow-x-hidden bg-01052D">
       <div className="hidden lg:block absolute top-36 right-28 3xl:right-56">
@@ -25,7 +27,9 @@ export const Footer = () => {
         </div>
 
         <div className="mt-5 lg:mt-7 text-center lg:text-left">
-          <p className="text-white">NEPTUNE MUTUAL</p>
+          <div className="w-47 mx-auto lg:mx-0 sm:w-63">
+            <img src={logo} alt="Neptune Mutual" />
+          </div>
           <p className="mt-8 lg:mt-11 text-white font-sora text-3xl lg:text-4xl font-semibold leading-10">
             Stay Tuned for Further Updates
           </p>
