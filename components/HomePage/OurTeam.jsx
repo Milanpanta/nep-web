@@ -1,8 +1,8 @@
-import LinkedinFilledIcon from "utils/icons/LinkedinFilledIcon";
-import TwitterFilledIcon from "utils/icons/TwitterFilledIcon";
-import MediumFilledIcon from "utils/icons/MediumFilledIcon";
-import ChevronLeftIcon from "utils/icons/ChevronLeftIcon";
-import ChevronRightIcon from "utils/icons/ChevronRightIcon";
+import LinkedinFilledIcon from "@utils/icons/LinkedinFilledIcon";
+import TwitterFilledIcon from "@utils/icons/TwitterFilledIcon";
+import MediumFilledIcon from "@utils/icons/MediumFilledIcon";
+import ChevronLeftIcon from "@utils/icons/ChevronLeftIcon";
+import ChevronRightIcon from "@utils/icons/ChevronRightIcon";
 
 export const OurTeamComponent = () => {
   return (

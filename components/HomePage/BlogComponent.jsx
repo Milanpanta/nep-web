@@ -39,7 +39,6 @@ export const BlogComponent = () => {
         </div>
         <div className="bg-white rounded-xl p-4 flex lg:block lg:p-0 lg:rounded-none lg:bg-transparent">
           <div className="lg:w-auto">
-            {/* <Image src={Blog2Img} alt="Blog2" className="object-cover" /> */}
             <img
               src={blog2}
               alt="Blog2"
@@ -57,7 +56,6 @@ export const BlogComponent = () => {
         </div>
         <div className="bg-white rounded-xl p-4 flex lg:block lg:p-0 lg:rounded-none lg:bg-transparent">
           <div className="lg:w-auto">
-            {/* <Image src={Blog2Img} alt="Blog2" /> */}
             <img
               src={blog3}
               alt="Blog3"

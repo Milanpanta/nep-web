@@ -1,5 +1,5 @@
-import ChevronRightIcon from "utils/icons/ChevronRightIcon";
-import ChevronLeftIcon from "utils/icons/ChevronLeftIcon";
+import ChevronRightIcon from "@utils/icons/ChevronRightIcon";
+import ChevronLeftIcon from "@utils/icons/ChevronLeftIcon";
 
 const data = [
   {

@@ -4,17 +4,16 @@ import TelegramIcon from "@utils/icons/TelegramIcon";
 import LinkedinIcon from "@utils/icons/LinkedinIcon";
 import MediumIcon from "@utils/icons/MediumIcon";
 import RedditIcon from "@utils/icons/RedditIcon";
-import Image from "next/image";
-import PlanetImg from "@assets/image/nmplanet.png";
-import FenbushiImg from "@assets/image/brand/fenbushi.png";
-import AnimocaImg from "@assets/image/brand/animoca.png";
 import { BrandCarouselComponent } from "@components/HomePage/BrandCarousel";
 import { BlogComponent } from "@components/HomePage/BlogComponent";
 
-export const IndustryComponent = () => {
-  const topLeftGradient = "/top-left-gradient.png";
-  const bottomRightGradient = "/bottom-right-gradient.png";
+const topLeftGradient = "/top-left-gradient.png";
+const bottomRightGradient = "/bottom-right-gradient.png";
+const planetImg = "/images/industry/nmplanet.png";
+const fenbushiImg = "/images/brand/fenbushi.png";
+const animocaImg = "/images/brand/animoca.png";
 
+export const IndustryComponent = () => {
   return (
     <div className="3xl:border-x 3xl:border-b0c4db px-4 sm:px-32 3xl:px-26 3xl:mx-72 pt-28 sm:pt-32 3xl:pt-28">
       <div className="relative w-full ">
@@ -33,7 +32,8 @@ export const IndustryComponent = () => {
             </div>
           </div>
           <div className="mt-9 xl:mt-0">
-            <Image src={PlanetImg} alt="Planet Image" />
+            <img src={planetImg} alt="Neptune Planet" />
+            {/* <Image src={PlanetImg} alt="Planet Image" /> */}
           </div>
         </div>
 
@@ -44,9 +44,9 @@ export const IndustryComponent = () => {
             </p>
             <div className="flex flex-col xl:flex-row items-center justify-center mt-12 xl:mt-22 pb-12 xl:pb-28">
               <div className="pb-18 xl:pb-0 px-6 xl:px-0 xl:pr-36">
-                <Image src={FenbushiImg} alt="Fenbushi Image" />
+                <img src={fenbushiImg} alt="Fenbushi Brand" />
               </div>
-              <Image src={AnimocaImg} alt="Animoca Image" />
+              <img src={animocaImg} alt="Animoca Brand" />
             </div>
             <div className="absolute top-0 left-0">
               <img src={topLeftGradient} alt="Top Left Gradient" />

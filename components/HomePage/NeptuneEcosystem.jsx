@@ -1,22 +1,21 @@
-import Image from "next/image";
-import TopLeftImg from "@assets/image/ecosystem/top-left.png";
-import BottomLeftImg from "@assets/image/ecosystem/bottom-left.png";
-import BottomRightImg from "@assets/image/ecosystem/bottom-right.png";
+const topLeftImg = "/images/ecosystem/top-left.png";
+const bottomLeftImg = "/images/ecosystem/bottom-left.png";
+const bottomRightImg = "/images/ecosystem/bottom-right.png";
 
 export const NeptuneEcosystemComponent = () => {
   return (
     <div className="bg-01052D relative pt-18 lg:pt-46 w-screen h-auto overflow-x-hidden">
       <div className="hidden lg:block absolute top-0 left-0">
-        <Image src={TopLeftImg} alt="Vector Image" />
+        <img src={topLeftImg} alt="Vector" />
       </div>
       <div className="absolute w-52 sm:w-68 md:w-80 top-16 right-0 lg:hidden">
-        <Image src={BottomLeftImg} alt="Vector Image" />
+        <img src={bottomLeftImg} alt="Vector" />
       </div>
       <div className="hidden lg:block absolute lg:bottom-0 lg:left-0 3xl:bottom-0 3xl:left-56">
-        <Image src={BottomLeftImg} alt="Vector Image" />
+        <img src={bottomLeftImg} alt="Vector" />
       </div>
       <div className="hidden lg:block absolute bottom-0 right-0">
-        <Image src={BottomRightImg} alt="Vector Image" />
+        <img src={bottomRightImg} alt="Vector" />
       </div>
       <div className="px-4 sm:px-32 3xl:mx-72 3xl:px-26 pb-38 lg:pb-96 flex flex-col lg:flex-row lg:justify-between lg:gap-28">
         <div>

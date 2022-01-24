@@ -5,16 +5,15 @@ import TelegramIcon from "@utils/icons/TelegramIcon";
 import LinkedinIcon from "@utils/icons/LinkedinIcon";
 import MediumIcon from "@utils/icons/MediumIcon";
 import RedditIcon from "@utils/icons/RedditIcon";
-import Image from "next/image";
-import PlanetImg from "@assets/image/nmplanet.png";
+
+const planetImg = "/images/industry/nmplanet.png";
+const logo = "/logos/neptune-mutual-full-inverse.png";
 
 export const Footer = () => {
-  const logo = "/logos/neptune-mutual-full-inverse.png";
-
   return (
     <div className="relative w-screen h-auto overflow-x-hidden bg-01052D">
       <div className="hidden lg:block absolute top-36 right-28 3xl:right-56">
-        <Image src={PlanetImg} alt="Planet" />
+        <img src={planetImg} alt="Planet" />
       </div>
       <div className="px-4 sm:px-32 3xl:mx-72 3xl:px-26 pt-24">
         <div className="hidden lg:flex justify-end">

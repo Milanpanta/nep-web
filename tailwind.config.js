@@ -60,6 +60,7 @@ module.exports = {
         74: "18.5rem",
         76: "19rem",
         92: "23rem",
+        120: "30rem",
       },
       margin: {
         11.5: "2.87rem",
@@ -76,6 +77,7 @@ module.exports = {
         74: "18.5rem",
         76: "19rem",
         92: "23rem",
+        120: "30rem",
       },
       fontSize: {
         "h1": ["76px", "104px"],
@@ -107,6 +109,12 @@ module.exports = {
       },
       borderRadius: {
         circle: "50%",
+      },
+      inset: {
+        34: "8.5rem",
+        92: "23rem",
+        120: "30rem",
+        142: "35.5rem",
       },
     },
   },
